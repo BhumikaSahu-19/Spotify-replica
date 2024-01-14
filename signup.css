@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box ; */
+}
+
+
+#logo{
+    display: flex;
+    padding: 32px;
+    overflow: hidden;
+    height: 32px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    box-sizing: content-box;
+    fill: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:#121212;
+    color: white;
+}
+
+header h1 {
+    height: 97px;
+    width: 324px;
+    text-align: left;
+    font-size: 44px;
+
+}
+
+.container {
+    width: 300px;
+   
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    background-color:#121212;
+
+    /* color: red; */
+}
+
+h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'CircularSpTitle', sans-serif;
+}
+
+input {
+    width: 295px;
+    height: 24px;
+    padding: 12px 14px;
+    font-weight: 600;
+    place-content: #727272;
+    color: white;
+    margin-bottom: 10px;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    outline: none;
+    background-color: #121212;
+}
+
+input:hover {
+    border: 1px solid white;
+}
+#warning{
+    width: 330px;
+    height: 38px;
+    display: flex;
+    color: #f15e6c;
+    fill: #f15e6c;
+    font-size: 14px;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-bottom: 8px;
+    display: none;
+}
+#warning svg{
+    width: 20px;
+    height: 20px;
+    padding-right: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+#emailTag{
+    text-align: left;
+    padding-bottom:8px ;
+    font-weight: 600;
+    font-size: 14px;
+}
+#phone{
+    /* margin-top: 8px; */
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+    /* font-weight: 500; */
+
+}
+#phone>a{
+    text-decoration: underline;
+    color:#1ed760;
+    font-size: 13px;
+   
+}
+#next-btn {
+    background-color: #1ed760;
+    border-radius: 30px;
+    width: 324px;
+    height: 48px;
+    color: #000;
+    padding: 8px 32px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+#or{
+    width: 108%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 32px;
+
+}
+#or::before{
+    content: " ";
+    height: 1px;
+    background-color: var(--essential-subdued,#878787);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+}
+#or>.orBox{
+    /* color: #007BFF; */
+    padding: 0px 12px;
+    position: relative;
+    display: inline-block;
+    background-color:#121212;
+
+}
+#google-signup {
+    width: 324px;
+    height: 48px;
+    background-color: #121212;
+    border: 0.0007mm solid rgb(105, 98, 98);
+    padding: 7px 31px;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#google-signup svg{
+    margin-left: -105px;
+}
+
+#facebook-signup {
+    width: 324px;
+    height: 48px;
+    background-color: #121212;
+    border: 0.0007mm solid rgb(105, 98, 98);
+    padding: 7px 31px;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#facebook-signup svg{
+
+    margin-left: -92px;
+}
+#apple-signup {
+    width: 324px;
+    height: 48px;
+    background-color: #121212;
+    border: 0.0007mm solid rgb(105, 98, 98);
+    padding: 7px 31px;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#apple-signup svg{
+    margin-left: -105px;
+}
+#or2{
+    width: 108%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 32px;
+
+}
+#or2::before{
+    content: " ";
+    height: 1px;
+    background-color: #292929;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+}
+
+p {
+    font-size: 16px;
+    color: #A7A7A7;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+
+#emailForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+#already{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+#policy {
+    font-size: 11px;
+    letter-spacing: 0.01mm;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#policy a{
+    font-size: 11px;
+    color: #A7A7A7;
+    letter-spacing: 0.01mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
